@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- VUE  -->
+    <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>   
+    <!-- AXIOS   -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- CSS  -->
+     <link rel="stylesheet" href="style.css">
+    
+    <title>PHP TO DO LIST</title>
+</head>
+<body>
+    <div id="app">
+        <h1>{{title}}</h1>
+        <ul>
+            <li v-for="item , index in list" ::key="index" :class="{'done' : item.done}">
+                {{item.text}}
+                <button v-if="item.done">
+                    <span>elimina</span>
+                </button>
+            </li>
+        </ul>
+        <div>
+            <input v-model="newTask.title" type="text" placeholder="Inserisci nuova task">
+            <textarea name="" id="" placeholder="inserisci descrizione"></textarea>
+            <button @click="addTask" >invia</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

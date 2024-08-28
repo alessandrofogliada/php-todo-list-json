@@ -1,0 +1,31 @@
+[
+    {
+        "text": "HTML",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam maiores mollitia temporibus veritatis! ",
+        "done": true
+    },
+
+    {
+        "text": "CSS",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam maiores mollitia temporibus veritatis! ",
+        "done": false
+    },
+
+    {
+        "text": "JS",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam maiores mollitia temporibus veritatis! ",
+        "done": true
+    },
+
+    {
+        "text": "VUE",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam maiores mollitia temporibus veritatis! ",
+        "done": false
+    },
+
+    {
+        "text": "PHP",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam maiores mollitia temporibus veritatis! ",
+        "done": false
+    }
+]
